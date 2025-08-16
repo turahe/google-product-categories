@@ -45,6 +45,7 @@ jobs:
         python -m py_compile setup.py
 
     - name: Check file structure
+      shell: bash
       run: |
         echo "Checking project structure..."
         ls -la
@@ -122,6 +123,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Check README
+      shell: bash
       run: |
         echo "Checking README.md exists and has content..."
         if [ -f "README.md" ]; then
@@ -133,6 +135,7 @@ jobs:
         fi
 
     - name: Check LICENSE
+      shell: bash
       run: |
         echo "Checking LICENSE file..."
         if [ -f "LICENSE" ]; then
@@ -142,6 +145,7 @@ jobs:
         fi
 
     - name: Validate markdown
+      shell: bash
       run: |
         echo "Checking markdown syntax..."
         # Basic markdown validation
