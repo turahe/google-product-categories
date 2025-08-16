@@ -1,5 +1,9 @@
 # Google Product Categories
 
+[![CI](https://github.com/turahe/google-product-categories/workflows/CI/badge.svg)](https://github.com/turahe/google-product-categories/actions)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A comprehensive repository containing Google Product Taxonomy data in multiple formats, with an automated setup script to download and process the latest taxonomy from Google's official source.
 
 ## What is Google Product Taxonomy?
